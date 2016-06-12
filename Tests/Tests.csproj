@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Monads\MaybeMonadTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sequences\SequencesTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
