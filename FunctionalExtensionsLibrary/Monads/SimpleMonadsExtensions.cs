@@ -22,5 +22,17 @@ namespace FunctionalExtensionsLibrary.Monads
 			}
 			return action(value);
 		}
+
+		public static T IfNotNull<T, Y, V>(this V value, Y secondValue, Func<V, T> action)
+			where V : class
+			where Y : class
+			where T : class
+		{
+			if (value == null || secondValue == null)
+			{
+				return null;
+			}
+			return action(value);
+		}
 	}
 }

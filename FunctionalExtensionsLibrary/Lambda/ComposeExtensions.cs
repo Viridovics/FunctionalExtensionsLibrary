@@ -6,10 +6,7 @@ namespace FunctionalExtensionsLibrary.Lambda
 	{
 		public static Func<I, O> Compose<I, V, O>(this Func<I, V> f1, Func<V, O> f2)
 		{
-			return (I x) =>
-				{
-					return f2(f1(x));
-				};
+			return x => f2(f1(x));
 		}
 	}
 }
