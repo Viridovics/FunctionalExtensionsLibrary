@@ -54,9 +54,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Lambda\ComposeTests.cs" />
+    <Compile Include="Loops\LoopsTests.cs" />
     <Compile Include="Monads\MaybeMonadTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sequences\SequencesTests.cs" />
+    <Compile Include="Structures\PairTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
