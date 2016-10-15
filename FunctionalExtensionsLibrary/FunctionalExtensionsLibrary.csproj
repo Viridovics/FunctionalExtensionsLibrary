@@ -42,6 +42,10 @@
     <Compile Include="Lambda\ComposeExtensions.cs" />
     <Compile Include="Loops\LoopsExtensions.cs" />
     <Compile Include="Monads\SimpleMonadsExtensions.cs" />
+    <Compile Include="Multithreading\SafeResourcesManager\ResourcesGraph.cs" />
+    <Compile Include="Multithreading\SafeResourcesManager\SafeResource.cs" />
+    <Compile Include="Multithreading\SafeResourcesManager\SafeResourceManager.cs" />
+    <Compile Include="Multithreading\SafeResourcesManager\SafeResourcesPool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sequences\CommonSequence.cs" />
     <Compile Include="Sequences\DoubleSequence.cs" />
